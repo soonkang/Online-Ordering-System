@@ -34,6 +34,14 @@
     flex-direction: column;
 }
 
+.add-menu {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-black);
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
 .app__specialMenu-menu_img {
     width: 410px;
     margin: 0 2rem;

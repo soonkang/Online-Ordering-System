@@ -14,7 +14,8 @@ const Reviews = () => {
         <img src={images.review3} alt="menu__img" className="review3" />
       </div>
       <div className="add-review">
-      <button type="button" className="custom__button">Add Review</button>
+      {/* <button type="button" className="custom__button">Add Review</button> */}
+      <a className='custom__button' href="/feedback">Add Review</a>
       </div>
     </div>
   

@@ -1,0 +1,188 @@
+section {
+    padding:0 0% 0; 
+  }
+  
+  
+  .footer {
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 1rem;
+    background: #1a242f;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    padding-bottom:30px;
+
+  
+    
+  }
+  
+
+
+
+  .footer-content img {
+    max-width: 80px; /* Adjust the size as needed */
+    margin-right: 10px; /* Add margin to the right side to shift the image slightly to the left */
+    display: block;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+  
+  
+  .footer-content h4 {
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    border-bottom: 2.5px solid cadetblue;
+    width: 50px;
+    padding-bottom: 5px;
+    
+  }
+  
+  
+  .footer-content li {
+    margin-bottom: 16px;
+    list-style-type: none; /* Remove default marker */
+  
+  
+  }
+  .footer-content li a::before{
+    content: '>'; /* Custom marker */
+    display: inline-block;
+    width: 1em; /* Adjust as needed */
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 0.5em; /* Space between marker and text */
+  }
+  
+  .footer-content li a {
+    display: block;
+    color: #d6d6d6;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease; /*add a transition effect when their value changes/hover activated*/
+  }
+  
+  .footer-content li a:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: #fff;
+  }
+  
+  .footer-content p {
+    color: #d6d6d6;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 20px 0;
+    margin-top: -80px;
+  
+  }
+  
+  .icons a {
+    display: inline-block;
+    font-size: 25px;
+    color: #d6d6d6;
+    margin-right: 17px;
+    transition: all .40s ease;
+  }
+  
+  .icons a:hover {
+    color: #fff;
+    transform: translateY(-5px);
+  }
+  
+  .footer-content img {
+    max-width: 200px; /* Set the maximum width of the image */
+    height: 197px; /* Maintain aspect ratio */
+    position: relative; /* Enable positioning */
+    top: -50px; /* Move the image higher */
+    float: left;
+    left: -40px; /* Align the image to the left */
+    margin-right: 50px; /* Optional: Add some space to the right of the image */
+  }
+  
+  
+  .footer-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  
+  .subscribe-form {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+  }
+  
+  
+  
+  .input-with-button {
+    display: flex;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .input-with-button input {
+    padding: 8px;
+    margin-right: 5px; /* Add some space between input and button */
+  }
+  
+  .input-with-button button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-with-button button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .order-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5%;   
+    width: 90%; 
+    margin-top: 10%;
+  
+  
+  }
+  
+  .order-container img{
+    max-width: 200px;
+    max-height: 200px;
+    background: wheat;
+    border-radius: 20px;
+    z-index: 1;
+    position: relative;
+    border: 2px solid white
+    
+    
+  }
+  
+  .order-container p {
+    display: inline;
+    position: absolute;
+  
+    
+  }
+  
+  .order-container img:nth-child(2) {
+    z-index: 2; /* Set a higher z-index for the second image to overlap the first */
+    left: -50px;
+  }
+  
+  .page-context {
+    position: relative;
+    top: 100px;
+    left: 100px;
+  }
+  

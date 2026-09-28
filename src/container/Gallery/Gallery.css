@@ -12,7 +12,7 @@
     align-items: flex-start;
     flex-direction: column;
 
-    min-width: 500px;
+    max-width: 40%;
     padding-right: 2rem;
 }
 
@@ -43,7 +43,7 @@
 
 .app__gallery-images_card {
     position: relative;
-    min-width: 301px;
+    max-width: 60%;
     height: 447px;
     margin-right: 2rem;
 }

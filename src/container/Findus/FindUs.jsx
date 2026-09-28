@@ -2,6 +2,7 @@ import React from 'react';
 
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
+import { Link } from 'react-router-dom';
 
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
@@ -14,7 +15,9 @@ const FindUs = () => (
         <p className="p__opensans">Mon - Fri: 9:00 Am - 17:00 Pm</p>
         <p className="p__opensans">Sat - Sun: Never</p>
       </div>
-      <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>Visit Us</button>
+      <Link to='/location'>
+        <a className="custom__button" >Visit Us</a>
+    </Link>
     </div>
 
     <div className="app__wrapper_img">

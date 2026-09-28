@@ -3,6 +3,7 @@ import React from 'react';
 import { SubHeading, MenuItem } from '../../components';
 import { data, images } from '../../constants';
 import './DrinksMenu.css';
+import { Link } from 'react-router-dom';
 
 const DrinksMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
@@ -33,6 +34,8 @@ const DrinksMenu = () => (
         </div>
       </div>
     </div>
+    <div className="add-menu">
+      </div>
   </div>
 );
 

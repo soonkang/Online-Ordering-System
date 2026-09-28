@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-base: 'Cormorant Upright', serif;
+  --font-alt: 'Open Sans', sans-serif;
+  
+  --color-golden: #DCCA87;
+  --color-black: #0C0C0C;
+  --color-gray: #545454;
+  --color-crimson: #F5EFDB;
+  --color-grey: #AAAAAA;
+  --color-white: #FFFFFF;
+}
+
+.star-radio {
+    display: none;
+  }
+  
+  .star {
+    cursor: pointer;
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-black);
+}
+
+.star-rating-column {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    padding: 20px 30px;
+    background: #f6f6f6;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px ;
+}
+
+.container .contact_box{
+    padding: 20px 30px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contact_box form input {
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+    width: 100%;
+    background: none ;
+  }
+
+.container .contact_box form textarea {
+    margin-top: 30px;
+    width: 100%;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+    resize: none;
+  }
+  
+.container .contact_box form button {
+    margin-top: 20px;
+    width: 100px;
+    padding: 10px 0px;
+    background: #010f1c;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  h2{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-size: 64px;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+  }
